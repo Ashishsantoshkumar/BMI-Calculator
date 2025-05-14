@@ -26,4 +26,4 @@ This BMI (Body Mass Index) calculator is a web application built using HTML, CSS
 
 5. Your BMI value and result will be displayed along with an explanation.
 ## Demo
--Click the link to view demo
+-Click the link to view demo :-https://bmi-calculator-gilt-seven.vercel.app/
