@@ -112,8 +112,9 @@ h1 {
 
 .explanation img {
     border-radius: 6%;
-    height: 150px; /* fixed typo: removed space between 150 and px */
+    height: 200px;
 }
+
 
 .explanation .content {
     max-width: 800px;
