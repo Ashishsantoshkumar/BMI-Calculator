@@ -45,6 +45,12 @@ body {
     text-align: center;
 }
 
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
 .items label {
     font-weight: 600;
     font-size: 14px;
@@ -80,6 +86,7 @@ button:hover {
 
 .bmi-line {
     display: flex;
+    flex-direction: column; /* vertical layout */
     align-items: center;
     justify-content: center;
     gap: 10px;
