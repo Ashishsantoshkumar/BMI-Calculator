@@ -25,19 +25,25 @@
             </p>
         </div>
 
-        <form class="items">
-            <label><p>Height in CM: <input type="text" id="height" /></p></label>
-            <label><p>Weight in KG: <input type="text" id="weight" /></p></label>
-            <button>Calculate</button>
+<form class="items">
+  <div class="input-group">
+    <label for="height">Height in CM:</label>
+    <input type="text" id="height" />
+  </div>
 
-<label>
-   <p>
-  The BMI is 
-  <input id="result" type="text" readonly />
-  kg/m<sup>2</sup>
-</p>
-  </label>            
-        </form>
+  <div class="input-group">
+    <label for="weight">Weight in KG:</label>
+    <input type="text" id="weight" />
+  </div>
+
+  <button type="submit">Calculate</button>
+
+  <div class="bmi-line">
+    <span>The BMI is</span>
+    <input id="result" type="text" readonly />
+    <span>kg/m<sup>2</sup></span>
+  </div>
+</form>
          
 
     </div>
